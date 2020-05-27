@@ -20,10 +20,9 @@ grows (hopefully)–I'll eventually index them differently.
 
 1. `2020-05-27`
 	
-	I was browsing the [Scala 2.13.0 release notes]
-	(https://github.com/scala/scala/releases/v2.13.0)
+	I was browsing the [Scala 2.13.0 release notes](https://github.com/scala/scala/releases/v2.13.0)
 	and came across the change "Partial unification on by default".
-	djspiewak's [gist](https://gist.github.com/djspiewak/7a81a395c461fd3a09a6941d4cd040f2)
+	[djspiewak's gist](https://gist.github.com/djspiewak/7a81a395c461fd3a09a6941d4cd040f2)
 	explained the motivation nicely–I've actually read it multiple times but
 	today's pass-through led me to internalize the take away:
 	
