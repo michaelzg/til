@@ -51,3 +51,15 @@ and jump to `java.sql.Timestamp` from joda `DateTime` (with timezone)
 via `getMillis`.	
 1. [Great Stack Overflow answer](https://stackoverflow.com/a/6627999) that outlines the above and
 when one may want to deviate as well.
+
+##### 2020-05-29
+
+[Protobuf](https://developers.google.com/protocol-buffers)
+design for embedded platforms has considerations 
+that can affect the design of the message.
+For [nanopb](https://github.com/nanopb/nanopb) in particular,
+variable-length types (e.g. `string`) within a `oneof`
+either needs a custom option specification for max size
+(with the implied memory overhead) or wrapped in it's
+own message. More details, reasoning and examples solutions 
+[here](https://jpa.kapsi.fi/nanopb/docs/concepts.html).
