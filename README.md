@@ -63,3 +63,11 @@ either needs a custom option specification for max size
 (with the implied memory overhead) or wrapped in it's
 own message. More details, reasoning and examples solutions 
 [here](https://jpa.kapsi.fi/nanopb/docs/concepts.html).
+
+##### 2020-06-01
+
+Contents piped to `pbcopy` ends up in the clipboard.
+
+```bash
+openssl rand -base64 200 | pbcopy
+```
