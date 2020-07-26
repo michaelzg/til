@@ -71,3 +71,13 @@ Contents piped to `pbcopy` ends up in the clipboard.
 ```bash
 openssl rand -base64 200 | pbcopy
 ```
+
+##### 2020-07-26
+
+Excel `VLOOKUP` function can fail if target string with which
+the lookup refers to is greater than 255 characters. It will
+fail the match even if the lookup exists–and you will not
+be able to distinguish this from a true match failure unless
+you double check the work!
+
+See [this article](http://eforexcel.com/wp/overcome-wildcard-vlookup-match-problem-when-target-string-is-more-than-255-characters/) for more details and a workaround. This bit me hard today.
