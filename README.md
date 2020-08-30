@@ -86,3 +86,5 @@ See [this article](http://eforexcel.com/wp/overcome-wildcard-vlookup-match-probl
 
 The existence of the book [WebRTC for the Curious](https://webrtcforthecurious.com/).
 Exactly what I wanted to learn–well written, free and fell into my lap!
+Plus an interesting article detailing the story of 
+[Zoom, when they used WebSockets, and then WebRTC](https://bloggeek.me/when-will-zoom-use-webrtc/).
