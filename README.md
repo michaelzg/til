@@ -81,3 +81,8 @@ be able to distinguish this from a true match failure unless
 you double check the work!
 
 See [this article](http://eforexcel.com/wp/overcome-wildcard-vlookup-match-problem-when-target-string-is-more-than-255-characters/) for more details and a workaround. This bit me hard today.
+
+##### 2020-08-30
+
+The existence of the book [WebRTC for the Curious](https://webrtcforthecurious.com/).
+Exactly what I wanted to learn–well written, free and fell into my lap!
